@@ -1,0 +1,42 @@
+.footer {
+    background: #2C343E;
+    margin-top: 200px;
+
+    & .footer__info {
+        display: flex;
+        align-items: center;
+    }
+
+    & .footer__logo {
+        background-color: white;
+    }
+
+    & .footer__list {
+        display: flex;
+        list-style: none;
+        padding-left: 150px;
+    }
+
+    & .footer__item+.footer__item {
+        padding-left: 33px;
+    }
+
+    & .footer__item2 {
+        padding-left: 370px;
+    }
+
+    & .footer__link {
+        color: #83888F;
+        font-family: "Barlow";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    & .footer__link:hover {
+        color: white;
+    }
+}

@@ -1,0 +1,37 @@
+.about__info {
+    display: flex;
+    background: #2C343E;
+    border-radius: 10px;
+    width: 1280px;
+    height: 474px;
+    margin-top: 210px;
+
+    & .about__h2 {
+        color: #FEFCF7;
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+        margin-top: 100px;
+        margin-left: 85px;
+        margin-bottom: 32px;
+    }
+
+    & .about__text {
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        width: 540px;
+        margin-left: 85px; 
+    }
+
+    & .about__pic {
+        margin-left: 92px;
+        padding-bottom: 80px;
+        margin-bottom: 60px;
+    }
+}
